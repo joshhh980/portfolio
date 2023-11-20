@@ -1,6 +1,11 @@
 import { FC, HTMLAttributes } from "react";
 
-const Category: FC<HTMLAttributes<HTMLParagraphElement> & { active: boolean, onClick: () => void }> = ({
+const Category: FC<HTMLAttributes<HTMLParagraphElement> & 
+    { 
+        active: boolean, 
+        onClick: () => void 
+    }
+> = ({
     active,
     onClick,
     children,
