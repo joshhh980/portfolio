@@ -1,0 +1,29 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body{
+    font-family: Poppins;
+}
+
+#intro{
+    font-size: 80px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#sub{
+    font-size: 40px;
+}
+
+.btn{
+    padding: 0.875rem 1.75rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 40px;
+}
+
+#social{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
